@@ -9,12 +9,12 @@ import (
 	"log"
 	"time"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/fs/fspath"
+	"github.com/Evengard/rclone/fs/object"
+	"github.com/Evengard/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

@@ -14,9 +14,9 @@ import (
 	"github.com/spf13/pflag"
 	"github.com/stretchr/testify/require"
 
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/pacer"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/fserrors"
+	"github.com/Evengard/rclone/lib/pacer"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/vfs"
+	"github.com/Evengard/rclone/vfs/vfscommon"
 	billy "github.com/go-git/go-billy/v5"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfscommon"
 )
 
 // FS is our wrapper around the VFS to properly support billy.Filesystem interface

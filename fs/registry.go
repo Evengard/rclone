@@ -12,8 +12,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/config/configstruct"
 )
 
 // Registry of filesystems

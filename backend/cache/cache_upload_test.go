@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/backend/cache"
-	_ "github.com/rclone/rclone/backend/drive"
-	"github.com/rclone/rclone/fs"
+	"github.com/Evengard/rclone/backend/cache"
+	_ "github.com/Evengard/rclone/backend/drive"
+	"github.com/Evengard/rclone/fs"
 	"github.com/stretchr/testify/require"
 )
 

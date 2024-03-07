@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/lib/pool"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/lib/pool"
+	"github.com/Evengard/rclone/lib/readers"
 )
 
 const (

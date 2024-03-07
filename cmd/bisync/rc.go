@@ -5,9 +5,9 @@ import (
 	"errors"
 	"log"
 
-	"github.com/rclone/rclone/cmd/bisync/bilib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/Evengard/rclone/cmd/bisync/bilib"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/rc"
 )
 
 func init() {

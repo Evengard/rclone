@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/rc"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/cache"
+	"github.com/Evengard/rclone/fs/rc"
 )
 
 const getVFSHelp = ` 

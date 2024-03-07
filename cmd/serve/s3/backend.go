@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/vfs"
 	"github.com/Mikubill/gofakes3"
 	"github.com/ncw/swift/v2"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs"
 )
 
 var (

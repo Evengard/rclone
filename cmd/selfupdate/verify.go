@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Evengard/rclone/fs"
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/clearsign"
-	"github.com/rclone/rclone/fs"
 )
 
 var ncwPublicKeyPGP = `-----BEGIN PGP PUBLIC KEY BLOCK-----

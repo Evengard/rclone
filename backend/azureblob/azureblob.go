@@ -33,21 +33,21 @@ import (
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/sas"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/service"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/chunksize"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/lib/bucket"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/env"
-	"github.com/rclone/rclone/lib/multipart"
-	"github.com/rclone/rclone/lib/pacer"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/chunksize"
+	"github.com/Evengard/rclone/fs/config"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/config/configstruct"
+	"github.com/Evengard/rclone/fs/config/obscure"
+	"github.com/Evengard/rclone/fs/fserrors"
+	"github.com/Evengard/rclone/fs/fshttp"
+	"github.com/Evengard/rclone/fs/hash"
+	"github.com/Evengard/rclone/fs/walk"
+	"github.com/Evengard/rclone/lib/bucket"
+	"github.com/Evengard/rclone/lib/encoder"
+	"github.com/Evengard/rclone/lib/env"
+	"github.com/Evengard/rclone/lib/multipart"
+	"github.com/Evengard/rclone/lib/pacer"
 )
 
 const (
@@ -2132,7 +2132,7 @@ func (w *azChunkWriter) WriteChunk(ctx context.Context, chunkNumber int, reader 
 //
 // FIXME it would be nice to delete uncommitted blocks.
 //
-// See: https://github.com/rclone/rclone/issues/5583
+// See: https://github.com/Evengard/rclone/issues/5583
 //
 // However there doesn't seem to be an easy way of doing this other than
 // by deleting the target.

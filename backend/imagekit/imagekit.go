@@ -13,16 +13,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/backend/imagekit/client"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/pacer"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/lib/version"
+	"github.com/Evengard/rclone/backend/imagekit/client"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/config/configstruct"
+	"github.com/Evengard/rclone/fs/hash"
+	"github.com/Evengard/rclone/lib/encoder"
+	"github.com/Evengard/rclone/lib/pacer"
+	"github.com/Evengard/rclone/lib/readers"
+	"github.com/Evengard/rclone/lib/version"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/Evengard/rclone/fs"
 )
 
 // GlobToRegexp converts an rsync style glob to a regexp

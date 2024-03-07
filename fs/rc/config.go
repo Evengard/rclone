@@ -8,8 +8,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/filter"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/filter"
 )
 
 var (

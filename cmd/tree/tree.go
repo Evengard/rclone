@@ -11,15 +11,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/fs/dirtree"
+	"github.com/Evengard/rclone/fs/log"
+	"github.com/Evengard/rclone/fs/walk"
+	"github.com/Evengard/rclone/lib/encoder"
+	"github.com/Evengard/rclone/lib/terminal"
 	"github.com/a8m/tree"
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/dirtree"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/terminal"
 	"github.com/spf13/cobra"
 )
 

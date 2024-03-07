@@ -6,11 +6,11 @@ import (
 	"net"
 	"time"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/accounting"
+	"github.com/Evengard/rclone/fs/config/obscure"
+	"github.com/Evengard/rclone/fs/fshttp"
 	smb2 "github.com/cloudsoda/go-smb2"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fshttp"
 )
 
 // dial starts a client connection to the given SMB server. It is a

@@ -13,12 +13,12 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/hash"
+	"github.com/Evengard/rclone/lib/terminal"
+	"github.com/Evengard/rclone/vfs"
+	"github.com/Evengard/rclone/vfs/vfsflags"
 	"github.com/pkg/sftp"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/terminal"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfsflags"
 	"golang.org/x/crypto/ssh"
 )
 

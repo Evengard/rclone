@@ -8,13 +8,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/asyncreader"
-	"github.com/rclone/rclone/fs/chunkedreader"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/ranges"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/accounting"
+	"github.com/Evengard/rclone/fs/asyncreader"
+	"github.com/Evengard/rclone/fs/chunkedreader"
+	"github.com/Evengard/rclone/fs/fserrors"
+	"github.com/Evengard/rclone/lib/ranges"
+	"github.com/Evengard/rclone/vfs/vfscommon"
 )
 
 // FIXME implement max downloaders

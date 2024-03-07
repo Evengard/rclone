@@ -6,12 +6,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
-	"github.com/rclone/rclone/lib/kv"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/obscure"
+	"github.com/Evengard/rclone/fs/operations"
+	"github.com/Evengard/rclone/fstest"
+	"github.com/Evengard/rclone/fstest/fstests"
+	"github.com/Evengard/rclone/lib/kv"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

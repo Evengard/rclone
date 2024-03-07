@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Evengard/rclone/cmd/mountlib"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config"
+	"github.com/Evengard/rclone/lib/atexit"
+	"github.com/Evengard/rclone/lib/file"
+	"github.com/Evengard/rclone/vfs/vfscommon"
+	"github.com/Evengard/rclone/vfs/vfsflags"
 	"github.com/coreos/go-systemd/v22/daemon"
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/vfs/vfscommon"
-	"github.com/rclone/rclone/vfs/vfsflags"
 )
 
 // Driver implements docker driver api

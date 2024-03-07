@@ -4,8 +4,8 @@ package smb_test
 import (
 	"testing"
 
-	"github.com/rclone/rclone/backend/smb"
-	"github.com/rclone/rclone/fstest/fstests"
+	"github.com/Evengard/rclone/backend/smb"
+	"github.com/Evengard/rclone/fstest/fstests"
 )
 
 // TestIntegration runs integration tests against the remote

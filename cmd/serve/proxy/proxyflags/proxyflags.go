@@ -2,8 +2,8 @@
 package proxyflags
 
 import (
-	"github.com/rclone/rclone/cmd/serve/proxy"
-	"github.com/rclone/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/cmd/serve/proxy"
+	"github.com/Evengard/rclone/fs/config/flags"
 	"github.com/spf13/pflag"
 )
 

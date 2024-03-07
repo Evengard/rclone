@@ -4,12 +4,12 @@ import (
 	"context"
 	_ "embed"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/hash"
-	httplib "github.com/rclone/rclone/lib/http"
-	"github.com/rclone/rclone/vfs"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/fs/hash"
+	httplib "github.com/Evengard/rclone/lib/http"
+	"github.com/Evengard/rclone/vfs"
+	"github.com/Evengard/rclone/vfs/vfsflags"
 	"github.com/spf13/cobra"
 )
 

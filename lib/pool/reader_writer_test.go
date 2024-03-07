@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/lib/random"
+	"github.com/Evengard/rclone/lib/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

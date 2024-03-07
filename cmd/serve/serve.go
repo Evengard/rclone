@@ -4,16 +4,16 @@ package serve
 import (
 	"errors"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/serve/dlna"
-	"github.com/rclone/rclone/cmd/serve/docker"
-	"github.com/rclone/rclone/cmd/serve/ftp"
-	"github.com/rclone/rclone/cmd/serve/http"
-	"github.com/rclone/rclone/cmd/serve/nfs"
-	"github.com/rclone/rclone/cmd/serve/restic"
-	"github.com/rclone/rclone/cmd/serve/s3"
-	"github.com/rclone/rclone/cmd/serve/sftp"
-	"github.com/rclone/rclone/cmd/serve/webdav"
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/cmd/serve/dlna"
+	"github.com/Evengard/rclone/cmd/serve/docker"
+	"github.com/Evengard/rclone/cmd/serve/ftp"
+	"github.com/Evengard/rclone/cmd/serve/http"
+	"github.com/Evengard/rclone/cmd/serve/nfs"
+	"github.com/Evengard/rclone/cmd/serve/restic"
+	"github.com/Evengard/rclone/cmd/serve/s3"
+	"github.com/Evengard/rclone/cmd/serve/sftp"
+	"github.com/Evengard/rclone/cmd/serve/webdav"
 	"github.com/spf13/cobra"
 )
 

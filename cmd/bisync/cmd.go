@@ -14,13 +14,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/bisync/bilib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/cmd/bisync/bilib"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config"
+	"github.com/Evengard/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/fs/filter"
+	"github.com/Evengard/rclone/fs/hash"
 
 	"github.com/spf13/cobra"
 )

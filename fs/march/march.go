@@ -9,11 +9,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/dirtree"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/list"
-	"github.com/rclone/rclone/fs/walk"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/dirtree"
+	"github.com/Evengard/rclone/fs/filter"
+	"github.com/Evengard/rclone/fs/list"
+	"github.com/Evengard/rclone/fs/walk"
 	"golang.org/x/text/unicode/norm"
 )
 

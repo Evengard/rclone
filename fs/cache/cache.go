@@ -6,9 +6,9 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/lib/cache"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/filter"
+	"github.com/Evengard/rclone/lib/cache"
 )
 
 var (

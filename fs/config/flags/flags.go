@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/Evengard/rclone/fs"
 	"github.com/spf13/pflag"
 )
 

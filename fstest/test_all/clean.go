@@ -8,10 +8,10 @@ import (
 	"log"
 	"regexp"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/list"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/fspath"
+	"github.com/Evengard/rclone/fs/list"
+	"github.com/Evengard/rclone/fs/operations"
 )
 
 // MatchTestRemote matches the remote names used for testing (copied

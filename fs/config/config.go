@@ -17,14 +17,14 @@ import (
 
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/obscure"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/lib/file"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/cache"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/config/obscure"
+	"github.com/Evengard/rclone/fs/fspath"
+	"github.com/Evengard/rclone/fs/rc"
+	"github.com/Evengard/rclone/lib/file"
+	"github.com/Evengard/rclone/lib/random"
 )
 
 const (
@@ -73,7 +73,7 @@ const (
 // persistent storage. Rclone provides a default implementation to
 // load and save to a config file when this is imported
 //
-// import "github.com/rclone/rclone/fs/config/configfile"
+// import "github.com/Evengard/rclone/fs/config/configfile"
 // configfile.Install()
 type Storage interface {
 	// GetSectionList returns a slice of strings with names for all the

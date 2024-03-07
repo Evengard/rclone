@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/lib/terminal"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/fserrors"
+	"github.com/Evengard/rclone/fs/rc"
+	"github.com/Evengard/rclone/lib/terminal"
 )
 
 const (

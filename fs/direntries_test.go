@@ -4,9 +4,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest/mockdir"
-	"github.com/rclone/rclone/fstest/mockobject"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fstest/mockdir"
+	"github.com/Evengard/rclone/fstest/mockobject"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,8 +7,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/hash"
 )
 
 // io related errors returned by ChunkedReader

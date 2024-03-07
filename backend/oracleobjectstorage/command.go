@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/operations"
 	"github.com/oracle/oci-go-sdk/v65/common"
 	"github.com/oracle/oci-go-sdk/v65/objectstorage"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/operations"
 )
 
 // ------------------------------------------------------------

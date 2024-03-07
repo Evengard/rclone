@@ -5,11 +5,11 @@ import (
 	"context"
 	"log"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/rc/rcflags"
-	"github.com/rclone/rclone/fs/rc/rcserver"
-	libhttp "github.com/rclone/rclone/lib/http"
-	"github.com/rclone/rclone/lib/systemd"
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/fs/rc/rcflags"
+	"github.com/Evengard/rclone/fs/rc/rcserver"
+	libhttp "github.com/Evengard/rclone/lib/http"
+	"github.com/Evengard/rclone/lib/systemd"
 	"github.com/spf13/cobra"
 )
 

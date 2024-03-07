@@ -17,12 +17,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/configstruct"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/config/configstruct"
+	"github.com/Evengard/rclone/fs/fshttp"
+	"github.com/Evengard/rclone/fs/hash"
+	"github.com/Evengard/rclone/lib/rest"
 	"golang.org/x/net/html"
 )
 

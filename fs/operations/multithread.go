@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/multipart"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/accounting"
+	"github.com/Evengard/rclone/lib/atexit"
+	"github.com/Evengard/rclone/lib/multipart"
 	"golang.org/x/sync/errgroup"
 )
 

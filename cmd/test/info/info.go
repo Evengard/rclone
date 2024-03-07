@@ -20,14 +20,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/cmd/test"
-	"github.com/rclone/rclone/cmd/test/info/internal"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/cmd/test"
+	"github.com/Evengard/rclone/cmd/test/info/internal"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/fs/hash"
+	"github.com/Evengard/rclone/fs/object"
+	"github.com/Evengard/rclone/lib/random"
 	"github.com/spf13/cobra"
 )
 

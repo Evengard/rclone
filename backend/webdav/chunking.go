@@ -15,9 +15,9 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/lib/readers"
-	"github.com/rclone/rclone/lib/rest"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/lib/readers"
+	"github.com/Evengard/rclone/lib/rest"
 )
 
 func (f *Fs) shouldRetryChunkMerge(ctx context.Context, resp *http.Response, err error) (bool, error) {

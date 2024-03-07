@@ -2,9 +2,9 @@
 package vfsflags
 
 import (
-	"github.com/rclone/rclone/fs/config/flags"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/Evengard/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/fs/rc"
+	"github.com/Evengard/rclone/vfs/vfscommon"
 	"github.com/spf13/pflag"
 )
 

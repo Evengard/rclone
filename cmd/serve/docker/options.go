@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/fspath"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/vfs/vfscommon"
-	"github.com/rclone/rclone/vfs/vfsflags"
+	"github.com/Evengard/rclone/cmd/mountlib"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/fspath"
+	"github.com/Evengard/rclone/fs/rc"
+	"github.com/Evengard/rclone/vfs/vfscommon"
+	"github.com/Evengard/rclone/vfs/vfsflags"
 
 	"github.com/spf13/pflag"
 )

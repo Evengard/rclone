@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/rclone/rclone/backend/imagekit/client"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fserrors"
-	"github.com/rclone/rclone/lib/pacer"
+	"github.com/Evengard/rclone/backend/imagekit/client"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/fserrors"
+	"github.com/Evengard/rclone/lib/pacer"
 )
 
 func (f *Fs) getFiles(ctx context.Context, path string, includeVersions bool) (files []client.File, err error) {

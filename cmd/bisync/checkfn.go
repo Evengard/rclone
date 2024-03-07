@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rclone/rclone/backend/crypt"
-	"github.com/rclone/rclone/cmd/bisync/bilib"
-	"github.com/rclone/rclone/cmd/check"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/filter"
-	"github.com/rclone/rclone/fs/hash"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/Evengard/rclone/backend/crypt"
+	"github.com/Evengard/rclone/cmd/bisync/bilib"
+	"github.com/Evengard/rclone/cmd/check"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/accounting"
+	"github.com/Evengard/rclone/fs/filter"
+	"github.com/Evengard/rclone/fs/hash"
+	"github.com/Evengard/rclone/fs/operations"
 )
 
 var hashType hash.Type

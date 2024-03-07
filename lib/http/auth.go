@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"log"
 
-	"github.com/rclone/rclone/fs/config/flags"
+	"github.com/Evengard/rclone/fs/config/flags"
 	"github.com/spf13/pflag"
 )
 

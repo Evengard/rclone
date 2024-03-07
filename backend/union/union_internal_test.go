@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/object"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
-	"github.com/rclone/rclone/lib/random"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/object"
+	"github.com/Evengard/rclone/fs/operations"
+	"github.com/Evengard/rclone/fstest"
+	"github.com/Evengard/rclone/fstest/fstests"
+	"github.com/Evengard/rclone/lib/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -14,13 +14,13 @@ import (
 	gosync "sync"
 	"time"
 
-	"github.com/rclone/rclone/cmd/bisync/bilib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/accounting"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/terminal"
+	"github.com/Evengard/rclone/cmd/bisync/bilib"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/accounting"
+	"github.com/Evengard/rclone/fs/log"
+	"github.com/Evengard/rclone/fs/operations"
+	"github.com/Evengard/rclone/lib/atexit"
+	"github.com/Evengard/rclone/lib/terminal"
 )
 
 // ErrBisyncAborted signals that bisync is aborted and forces exit code 2

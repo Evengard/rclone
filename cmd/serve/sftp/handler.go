@@ -9,9 +9,9 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/vfs"
 	"github.com/pkg/sftp"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs"
 )
 
 // vfsHandler converts the VFS to be served by SFTP

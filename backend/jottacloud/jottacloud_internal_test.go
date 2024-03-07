@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fstest"
-	"github.com/rclone/rclone/fstest/fstests"
-	"github.com/rclone/rclone/lib/random"
-	"github.com/rclone/rclone/lib/readers"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fstest"
+	"github.com/Evengard/rclone/fstest/fstests"
+	"github.com/Evengard/rclone/lib/random"
+	"github.com/Evengard/rclone/lib/readers"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

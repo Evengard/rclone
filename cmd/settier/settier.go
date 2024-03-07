@@ -5,8 +5,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/rclone/rclone/cmd"
-	"github.com/rclone/rclone/fs/operations"
+	"github.com/Evengard/rclone/cmd"
+	"github.com/Evengard/rclone/fs/operations"
 	"github.com/spf13/cobra"
 )
 

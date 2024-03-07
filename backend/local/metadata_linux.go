@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/Evengard/rclone/fs"
 	"golang.org/x/sys/unix"
 )
 

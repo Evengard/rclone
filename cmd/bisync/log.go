@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/lib/encoder"
-	"github.com/rclone/rclone/lib/terminal"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/lib/encoder"
+	"github.com/Evengard/rclone/lib/terminal"
 )
 
 func (b *bisyncRun) indentf(tag, file, format string, args ...interface{}) {

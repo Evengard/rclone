@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/lib/oauthutil"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/lib/oauthutil"
 
 	"golang.org/x/oauth2"
 )

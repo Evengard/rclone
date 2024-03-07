@@ -8,7 +8,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/rclone/rclone/fs/hash"
+	"github.com/Evengard/rclone/fs/hash"
 )
 
 // Fs is the interface a cloud storage system must provide

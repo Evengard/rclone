@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rclone/rclone/cmd/mountlib"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/lib/atexit"
-	"github.com/rclone/rclone/lib/buildinfo"
-	"github.com/rclone/rclone/vfs"
+	"github.com/Evengard/rclone/cmd/mountlib"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/lib/atexit"
+	"github.com/Evengard/rclone/lib/buildinfo"
+	"github.com/Evengard/rclone/vfs"
 	"github.com/winfsp/cgofuse/fuse"
 )
 

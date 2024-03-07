@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/rclone/rclone/fs"
+	"github.com/Evengard/rclone/fs"
 	"github.com/sirupsen/logrus"
 )
 

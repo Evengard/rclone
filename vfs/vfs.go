@@ -33,14 +33,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/cache"
+	"github.com/Evengard/rclone/fs/log"
+	"github.com/Evengard/rclone/fs/rc"
+	"github.com/Evengard/rclone/fs/walk"
+	"github.com/Evengard/rclone/vfs/vfscache"
+	"github.com/Evengard/rclone/vfs/vfscommon"
 	"github.com/go-git/go-billy/v5"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/cache"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/rc"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/vfs/vfscache"
-	"github.com/rclone/rclone/vfs/vfscommon"
 )
 
 // Help for the VFS.

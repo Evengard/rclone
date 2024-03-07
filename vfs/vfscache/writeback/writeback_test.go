@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/vfs/vfscommon"
 	"github.com/stretchr/testify/assert"
 )
 

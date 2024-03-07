@@ -16,11 +16,11 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/Evengard/rclone/cmd/serve/dlna/upnpav"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/vfs"
 	"github.com/anacrolix/dms/dlna"
 	"github.com/anacrolix/dms/upnp"
-	"github.com/rclone/rclone/cmd/serve/dlna/upnpav"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/vfs"
 )
 
 type contentDirectoryService struct {

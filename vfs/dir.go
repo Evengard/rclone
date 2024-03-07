@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/dirtree"
-	"github.com/rclone/rclone/fs/list"
-	"github.com/rclone/rclone/fs/log"
-	"github.com/rclone/rclone/fs/operations"
-	"github.com/rclone/rclone/fs/walk"
-	"github.com/rclone/rclone/vfs/vfscommon"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/dirtree"
+	"github.com/Evengard/rclone/fs/list"
+	"github.com/Evengard/rclone/fs/log"
+	"github.com/Evengard/rclone/fs/operations"
+	"github.com/Evengard/rclone/fs/walk"
+	"github.com/Evengard/rclone/vfs/vfscommon"
 )
 
 // Dir represents a directory entry

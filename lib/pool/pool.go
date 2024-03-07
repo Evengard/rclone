@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rclone/rclone/lib/mmap"
+	"github.com/Evengard/rclone/lib/mmap"
 )
 
 // Pool of internal buffers

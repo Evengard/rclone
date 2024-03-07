@@ -13,12 +13,12 @@ import (
 	"strings"
 	"testing"
 
+	_ "github.com/Evengard/rclone/backend/local"
+	"github.com/Evengard/rclone/cmd/serve/servetest"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/config/configmap"
+	"github.com/Evengard/rclone/fs/config/obscure"
 	"github.com/pkg/sftp"
-	_ "github.com/rclone/rclone/backend/local"
-	"github.com/rclone/rclone/cmd/serve/servetest"
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/config/configmap"
-	"github.com/rclone/rclone/fs/config/obscure"
 	"github.com/stretchr/testify/require"
 )
 

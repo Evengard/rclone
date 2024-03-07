@@ -8,9 +8,9 @@ import (
 	"io"
 	"net"
 
-	"github.com/rclone/rclone/fs"
-	"github.com/rclone/rclone/fs/fshttp"
-	"github.com/rclone/rclone/lib/proxy"
+	"github.com/Evengard/rclone/fs"
+	"github.com/Evengard/rclone/fs/fshttp"
+	"github.com/Evengard/rclone/lib/proxy"
 	"golang.org/x/crypto/ssh"
 )
 

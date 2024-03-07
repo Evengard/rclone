@@ -8,8 +8,8 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/Evengard/rclone/fs"
 	"github.com/pkg/xattr"
-	"github.com/rclone/rclone/fs"
 )
 
 const (
